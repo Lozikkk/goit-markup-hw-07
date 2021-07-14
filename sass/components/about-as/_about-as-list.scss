@@ -1,0 +1,11 @@
+.about-as-list {
+  display: flex;
+  align-items: center;
+}
+.about-as-list--list {
+  list-style: none;
+}
+
+.about-as-list__item:not(:last-child) {
+  margin-right: 30px;
+}

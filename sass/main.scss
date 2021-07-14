@@ -1,4 +1,7 @@
 @import './utils/vars';
+body {
+  font-family: $main-font;
+}
 @import './utils/container';
 @import './utils/list-link-decor';
 @import './utils/reset';
@@ -9,3 +12,46 @@
 @import './components/header/menu-header';
 @import './components/header/header-contacts';
 //EndHeader//
+
+//Hero//
+@import './components/hero/hero';
+@import './components/hero/hero-title';
+@import './components/hero/hero-btn';
+//EndHero//
+
+//Advantages//
+@import './components/advantages/advantages';
+@import './components/advantages/advantages-list';
+//EndAdvantages//
+
+//AboutAs//
+@import './components/about-as/about-as';
+@import './components/about-as/about-as-list';
+@import './components/about-as/product';
+//EndAboutAs//
+
+//OutTeam//
+@import './components/our-team/our-team';
+@import './components/our-team/out-team-list';
+@import './components/our-team/people';
+@import './components/our-team/social-list';
+//EndOurTeam//
+
+//OurPartners//
+@import './components/our-partners/our-partners';
+@import './components/our-partners/our-partners-list';
+//EndOurPartners//
+
+//Footer//
+@import './components/footer/footer';
+@import './components/footer/footer-address';
+@import './components/footer/footer-contacts';
+@import './components/footer/footer-social-list';
+@import './components/footer/footer-form';
+//EndFooter//
+
+//Portfolio//
+@import './components/portfolio/portfolio';
+@import './components/portfolio/portfolio-btn';
+@import './components/portfolio/portfolio-projects';
+//EndPortfolio//

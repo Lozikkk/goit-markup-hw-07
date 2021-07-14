@@ -1,0 +1,70 @@
+/*=======BlockForm=========*/
+.form-title {
+  margin-bottom: 20px;
+  display: block;
+
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form__input-form {
+  width: 358px;
+  height: 50px;
+  left: 815px;
+  top: 2787px;
+
+  padding-left: 16px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 12px;
+
+  background: #2f303a;
+  color: #ffffff;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.form__form-btn {
+  width: 200px;
+  height: 50px;
+
+  display: flex;
+
+  align-items: center;
+
+  cursor: pointer;
+  border: none;
+
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  padding-left: 29px;
+
+  color: #ffffff;
+
+  background: $accent-color;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.form__icon-form-btn {
+  height: 18px;
+  width: 18px;
+  margin-left: 10px;
+}

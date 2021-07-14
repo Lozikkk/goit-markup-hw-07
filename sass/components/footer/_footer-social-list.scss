@@ -1,0 +1,51 @@
+/*========BlockSocialLink===========*/
+.footer-link {
+  margin-right: 93px;
+}
+.footer-title {
+  width: 145px;
+  height: 16px;
+
+  font-family: $main-font;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+
+  color: #ffffff;
+  display: block;
+}
+.footer-social-list {
+  display: flex;
+  align-items: center;
+}
+.footer-social-list--list {
+  list-style: none;
+}
+.footer-social-list__item {
+  display: flex;
+}
+.footer-social-list__item:not(:last-child) {
+  margin-right: 10px;
+}
+.footer-social-list__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+  fill: #ffffff;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+}
+.footer-social-list__link:hover,
+.footer-social-list__link:focus {
+  background-color: $accent-color;
+}

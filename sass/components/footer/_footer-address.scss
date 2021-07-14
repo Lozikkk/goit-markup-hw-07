@@ -1,0 +1,64 @@
+/*======BlockAddress========*/
+.address-list {
+  display: flex;
+  flex-direction: column;
+}
+.address-list--list {
+  list-style: none;
+}
+.address-list__item:not(:last-child) {
+  margin-bottom: 9px;
+}
+.address-list__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+}
+.address-list__link--link {
+  text-decoration: none;
+}
+.address-list__mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+}
+
+.address-list__phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21.714px;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: $timing-function;
+}
+.address-list__link:hover,
+.address-list__link:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+.address-list__mail:hover,
+.address-list__mail:focus,
+.address-list__phone:hover,
+.address-list__phone:focus {
+  color: #ffffff;
+}
