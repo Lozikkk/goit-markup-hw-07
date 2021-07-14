@@ -951,6 +951,9 @@ body {
 .portfolio-projects-product {
   display: flex;
 }
+.portfolio-projects__link-overlay--link {
+  text-decoration: none;
+}
 .portfolio-projects__link-overlay:hover,
 .portfolio-projects__link-overlay:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -1005,17 +1008,6 @@ body {
 
   color: #757575;
 }
-
-.container-buton {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.portfolio-overlay {
-  position: absolute;
-}
-
 .portfolio-projects__link-overlay:hover,
 .portfolio-projects__link-overlay:focus {
   transition-property: box-shadow;
