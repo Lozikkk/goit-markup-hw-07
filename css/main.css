@@ -1523,9 +1523,8 @@ body {
   right: 0;
   width: 30px;
   height: 30px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%);
   margin-right: 10px;
+  margin-top: 8px;
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   -webkit-box-sizing: border-box;
@@ -1682,6 +1681,7 @@ textarea {
 
 .modal-window-form__text-area {
   padding: 11px 16px;
+  height: 120px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -1711,6 +1711,19 @@ textarea {
   margin-bottom: 30px;
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.modal-window-form__accept-label {
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .modal-window-form__text-area:hover,
