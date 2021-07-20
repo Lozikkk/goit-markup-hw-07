@@ -373,7 +373,7 @@ summary {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu__link--curent {
+.menu__link--current {
   color: #2196f3;
 }
 
@@ -403,7 +403,7 @@ summary {
   opacity: 1;
 }
 
-.menu__link--curent::after {
+.menu__link--current::after {
   color: #2196f3;
   content: '';
   display: block;
@@ -1141,7 +1141,7 @@ summary {
   border-radius: 4px;
 }
 
-.portfolio-list__btn--curent {
+.portfolio-list__btn--current {
   background-color: #2196f3;
   color: #ffffff;
 }
