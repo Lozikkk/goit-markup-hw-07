@@ -8,10 +8,11 @@
   list-style: none;
 }
 .our-partners-list__item {
-  &::not(:last-child) {
+  &:not(:last-child) {
     margin-right: 30px;
   }
 }
+
 .our-partners-list__link {
   display: flex;
   align-items: center;

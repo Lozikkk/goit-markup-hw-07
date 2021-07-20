@@ -1,15 +1,13 @@
+//UtilisAndComponent//
 @import './utils/vars';
-body {
-  font-family: $main-font;
-}
+@import './base_style/body-main-font';
+
 @import './utils/container';
 @import './utils/list-link-decor';
 @import './utils/reset';
 @import './base_style/normalize';
 //HeaderStyle//
-body {
-  font-family: $main-font;
-}
+
 @import './components/header/header';
 @import './components/header/logo';
 @import './components/header/menu-header';
@@ -17,26 +15,20 @@ body {
 //EndHeader//
 
 //Hero//
-body {
-  font-family: $main-font;
-}
+
 @import './components/hero/hero';
 @import './components/hero/hero-title';
 @import './components/hero/hero-btn';
 //EndHero//
 
 //Advantages//
-body {
-  font-family: $main-font;
-}
+
 @import './components/advantages/advantages';
 @import './components/advantages/advantages-list';
 //EndAdvantages//
 
 //AboutAs//
-body {
-  font-family: $main-font;
-}
+
 @import './components/about-as/about-as';
 @import './components/about-as/about-as-list';
 @import './components/about-as/product';
