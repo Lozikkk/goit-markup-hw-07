@@ -6,9 +6,12 @@
 .address-list--list {
   list-style: none;
 }
-.address-list__item:not(:last-child) {
-  margin-bottom: 9px;
+.address-list__item {
+  &:not(:last-child) {
+    margin-bottom: 9px;
+  }
 }
+
 .address-list__link {
   font-style: normal;
   font-weight: 400;
@@ -52,13 +55,21 @@
   transition-duration: 250ms;
   transition-timing-function: $timing-function;
 }
-.address-list__link:hover,
-.address-list__link:focus {
-  color: rgba(255, 255, 255, 0.6);
+.address-list__link {
+  &:hover,
+  &:focus {
+    color: rgba(255, 255, 255, 0.6);
+  }
 }
-.address-list__mail:hover,
-.address-list__mail:focus,
-.address-list__phone:hover,
-.address-list__phone:focus {
-  color: #ffffff;
+.address-list__mail {
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
+}
+.address-list__phone {
+  &:hover,
+  &:focus {
+    color: #ffffff;
+  }
 }

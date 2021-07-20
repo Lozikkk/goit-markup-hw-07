@@ -43,8 +43,9 @@
 
   align-items: center;
   justify-content: center;
-}
-.modal-window__button-close:hover,
-.modal-window__button-close:focus {
-  fill: $accent-color;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
 }

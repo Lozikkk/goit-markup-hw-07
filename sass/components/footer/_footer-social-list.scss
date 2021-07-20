@@ -28,9 +28,9 @@
 }
 .footer-social-list__item {
   display: flex;
-}
-.footer-social-list__item:not(:last-child) {
-  margin-right: 10px;
+  &:not(:last-child) {
+    margin-right: 10px;
+  }
 }
 .footer-social-list__link {
   display: flex;
@@ -44,8 +44,8 @@
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: $timing-function;
-}
-.footer-social-list__link:hover,
-.footer-social-list__link:focus {
-  background-color: $accent-color;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+  }
 }

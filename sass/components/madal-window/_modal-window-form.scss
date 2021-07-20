@@ -25,32 +25,32 @@ textarea {
   position: relative;
   display: flex;
   flex-direction: column;
-}
-.modal-window-form__field:not(:last-child) {
-  margin-bottom: 10px;
-}
-.modal-window-form__field label {
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 14px;
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+  label {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
 
-  letter-spacing: 0.01em;
+    letter-spacing: 0.01em;
 
-  color: #757575;
+    color: #757575;
+  }
+  textarea::placeholder {
+    font-family: $main-font;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.01em;
+
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
-.modal-window-form__field textarea::placeholder {
-  font-family: $main-font;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.01em;
-
-  color: rgba(117, 117, 117, 0.5);
-}
 .modal-window-form__input {
   width: 448px;
   height: 40px;
@@ -68,10 +68,14 @@ textarea {
   transition-timing-function: $timing-function;
 
   outline: none;
-}
-.modal-window-form__input:hover,
-.modal-window-form__input:focus {
-  border: 1px solid $accent-color;
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
+  & ~ .modal-window-form__svg,
+  & ~ .modal-window-form__svg {
+    fill: $accent-color;
+  }
 }
 .modal-window-form__svg {
   position: absolute;
@@ -86,10 +90,6 @@ textarea {
   transition-duration: 250ms;
   transition-timing-function: $timing-function;
 }
-.modal-window-form__input:focus ~ .modal-window-form__svg,
-.modal-window-form__input:hover ~ .modal-window-form__svg {
-  fill: $accent-color;
-}
 
 .modal-window-form__text-area {
   padding: 11px 16px;
@@ -103,6 +103,11 @@ textarea {
 
   transition-duration: 250ms;
   transition-timing-function: $timing-function;
+
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+  }
 }
 .modal-window-form__accept {
   display: flex;
@@ -126,17 +131,20 @@ textarea {
   align-items: center;
   justify-content: center;
 }
-.modal-window-form__text-area:hover,
-.modal-window-form__text-area:focus {
-  border: 1px solid $accent-color;
-}
 .modal-window-form__checkbox-input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
 
   position: absolute;
+
+  &:checked {
+    + .modal-window-form__checkbox-icon {
+      background-image: url(../images/check-box-img/icon-check-done.svg);
+    }
+  }
 }
+
 .modal-window-form__checkbox-icon {
   display: inline-flex;
   width: 16px;
@@ -148,9 +156,7 @@ textarea {
 
   background-image: url(../images/check-box-img/vector.svg);
 }
-.modal-window-form__checkbox-input:checked + .modal-window-form__checkbox-icon {
-  background-image: url(../images/check-box-img/icon-check-done.svg);
-}
+
 .modal-window-form__pdf {
   font-family: $main-font;
   font-style: normal;
