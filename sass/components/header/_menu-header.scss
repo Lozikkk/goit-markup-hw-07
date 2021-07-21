@@ -8,7 +8,7 @@
   }
 }
 .menu__link {
-  font-family: $main-font;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -20,10 +20,10 @@
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: $timing-function;
+  transition-timing-function: var(--timing-function);
 }
 .menu__link--current {
-  color: $accent-color;
+  color: var(--accent-color);
 }
 .menu__link--link {
   text-decoration: none;
@@ -37,23 +37,23 @@
     height: 4px;
     bottom: -33px;
 
-    background-color: $accent-color;
+    background-color: var(--accent-color);
     border-radius: 2px;
     opacity: 0;
-    transition: 250ms $timing-function;
+    transition: 250ms var(--timing-function);
   }
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
     &::after {
-      color: $accent-color;
+      color: var(--accent-color);
       opacity: 1;
     }
   }
 }
 .menu__link--current {
   &::after {
-    color: $accent-color;
+    color: var(--accent-color);
     content: '';
     display: block;
     position: absolute;
@@ -61,9 +61,9 @@
     height: 4px;
     bottom: -33px;
 
-    background-color: #2196f3;
+    background-color: var(--accent-color);
     border-radius: 2px;
     opacity: 1;
-    transition: 250ms $timing-function;
+    transition: 250ms var(--timing-function);
   }
 }

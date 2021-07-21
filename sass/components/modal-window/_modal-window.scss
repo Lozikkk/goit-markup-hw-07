@@ -14,7 +14,7 @@
 
   transform: translate(-50%, -50%) scale(1);
 
-  transition: transform 250ms $timing-function;
+  transition: transform 250ms var(--timing-function);
 }
 
 .backdrop--is-hidden .modal-window {
@@ -46,6 +46,6 @@
 
   &:hover,
   &:focus {
-    fill: $accent-color;
+    fill: var(--accent-color);
   }
 }

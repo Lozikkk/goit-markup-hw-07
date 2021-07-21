@@ -10,7 +10,7 @@
 }
 
 .contacts-list-header__mail {
-  font-family: $main-font;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -26,11 +26,11 @@
   transition-timing-function: $timing-function;
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
   }
 }
 .contacts-list-header__phone-number {
-  font-family: $main-font;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -42,10 +42,10 @@
   align-items: center;
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: $timing-function;
+  transition-timing-function: var(--timing-function);
   &:hover,
   &:focus {
-    color: $accent-color;
+    color: var(--accent-color);
   }
 }
 .contacts-list-header__icon-contact {

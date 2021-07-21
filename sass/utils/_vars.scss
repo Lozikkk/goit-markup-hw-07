@@ -1,5 +1,7 @@
-$main-font: 'Roboto', sans-serif;
-$secondary-font: 'Raleway', sans-serif;
-$accent-color: #2196f3;
-$portfolio-btn: #f5f4fa;
-$timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: 'Raleway', sans-serif;
+  --accent-color: #2196f3;
+  --portfolio-btn: #f5f4fa;
+  --timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

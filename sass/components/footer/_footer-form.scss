@@ -50,7 +50,7 @@
   cursor: pointer;
   border: none;
 
-  font-family: $main-font;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -59,7 +59,7 @@
 
   color: #ffffff;
 
-  background: $accent-color;
+  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }

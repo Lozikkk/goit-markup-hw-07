@@ -23,7 +23,7 @@
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: $timing-function;
+  transition-timing-function: var(--timing-function);
 }
 .address-list__link--link {
   text-decoration: none;
@@ -39,7 +39,7 @@
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: $timing-function;
+  transition-timing-function: var(--timing-function);
 }
 
 .address-list__phone {
@@ -53,7 +53,7 @@
 
   transition-property: color;
   transition-duration: 250ms;
-  transition-timing-function: $timing-function;
+  transition-timing-function: var(--timing-function);
 }
 .address-list__link {
   &:hover,
