@@ -609,7 +609,7 @@ body {
   padding-right: 15px;
 }
 
-.about-as-title {
+.about-as__title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -650,7 +650,7 @@ body {
   position: absolute;
 }
 
-.products__actions-title {
+.product__actions-title {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
