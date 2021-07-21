@@ -1,10 +1,10 @@
 @import './utils/vars';
-@import './base_style/body-main-font';
 
 @import './utils/container';
 @import './utils/list-link-decor';
 @import './utils/reset';
-@import './base_style/normalize';
+@import './base/normalize';
+@import './base/body-main-font';
 //HeaderStyle//
 
 @import './components/header/header';
@@ -60,7 +60,7 @@
 //EndPortfolio//
 
 //ModalWindow//
-@import './components/madal-window/backdrop';
-@import './components/madal-window/modal-window';
-@import './components/madal-window/modal-window-form';
+@import './components/modal-window/backdrop';
+@import './components/modal-window/modal-window';
+@import './components/modal-window/modal-window-form';
 //EndModalWindow//
